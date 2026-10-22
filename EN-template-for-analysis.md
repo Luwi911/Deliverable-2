@@ -40,7 +40,7 @@ To include a screen capture, use the sample code below. Your images should be sa
 ``` r
 =IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
 ```
-This also shows how to create an ordered list. Simply put `1.` before each item.
+This also shows how to create an ordered list. Simply put `1.` before each item..
 
 ## 2. Understanding Data
 
