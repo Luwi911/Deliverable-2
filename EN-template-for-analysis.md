@@ -42,9 +42,16 @@ To include a screen capture, use the sample code below. Your images should be sa
 ```
 This also shows how to create an ordered list. Simply put `1.` before each item..
 
-For this assignemnt I will be analyzing the dataset on traffic colliosns from open ottawa to see what role road and weather conditions played in the cause of the collision and if any pattern can be derived from this. Originally I planned on using `IMPORTDATA` to extract the data from the dataset however I would soon find out that would be impossible to do on open ottawa so I resorted to doing it manually by downloading the csv and importing it from file. 
+For this assignemnt I will be analyzing the dataset on traffic colliosns from open ottawa to see what role road and weather conditions played in the cause of the collision and if any pattern can be derived from this. Originally I planned on using `IMPORTDATA` to extract the data from the dataset however I would soon find out that would be impossible to do on open ottawa so I resorted to doing it manually by downloading the csv and importing it from file. (https://docs.google.com/spreadsheets/d/1PMjr_dMFUb8QtXqLGrBA_43ulSd87OVDIKUuzPKIOYg/edit?usp=sharing) 
 
-Once i did that I selected the rows with the data I needed only as there were originally 17 columns but I only needed atleast 8 such as column N which had ordinal vairables on the conditions of the road, column R which had quantitive ratio variables on the number of cars involved and column L also with ordinal variables. but covering the classification of the accidents. There were also over a thousand rows as the data ranged from the years 2017 to 2024 (excluding 2023) so I decided to create seperate sheets for each of the years, i.e 2017 - 2018,  2019 - 2020 and so on. 
+![](SS.png)<br>
+*Figure 1: The imported data.*
+
+
+Once i did that I selected the rows with the data I needed only as there were originally 17 columns but I only needed atleast 8 such as column N which had ordinal vairables on the conditions of the road, column R which had quantitive ratio variables on the number of cars involved and column L also with ordinal variables. but covering the classification of the accidents. There were also over a thousand rows as the data ranged from the years 2017 to 2024 (excluding 2023) so I decided to create seperate sheets for each of the years, i.e 2017 - 2018,  2019 - 2020 and so on. (https://docs.google.com/spreadsheets/d/1a3oO_SJUtO0-cOCRndJqsE5OG9lnO--kZDpro2BcLkY/edit?usp=sharing)
+
+![](SS2.png)<br>
+*Figure 1: The data imported into seperate sheets*
 
 I created these sheets in a seperate file and planned on using `IMPORTRANGE` to put get the desired columns and rows in there. However before I could do that I had to make sure the rows were ordered correctly else it would be a mess upon importation. After reviewing it all I saw that some of the years were mixed together and were not properly in accending order so by using the advanced range sorting options I ordered it correctly. I also used the data cleanup tool to get rid of white spaces as well. After all that I imported the data as planned
 
