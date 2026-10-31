@@ -64,6 +64,13 @@ I created these sheets in a seperate file and planned on using `IMPORTRANGE` to 
 Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
 
 Insert text here.
+For the VIMO analysis I used openrefine as suggested on both the original spreadsheet and the latter one. I did both as the file for the latter spreadsheet only featured one of the sheets so to make sure all the data was clean I used the original one. I then used the text facet to analyze three columns, those columns being "Road_1_Surface_Condition" covering the conditions of the road, "Environment_Condition" covering the weather condition, and "Light" which covers how bright it was outside. Using the text facet and cluster tool  I could find that all the variables were valid, though there was a variable in all 3 columns called "unknown" that to my understanding shows that some data is missing or just as it says unknown. 
+
+When looking for outliers I noticed in the column for the road conditions that the outliers there were dry, spilled liquid, mud, sand or loose gravel, wet and other. Most of the variables in this category are in the thousands while the majority of the mentioned outliers are in the 10s or 100s, though one with the most dramatic distance from the rest of the variables (being 50k greater than the second greatest outlier) is Dry.
+
+For Environment_Condition again most of the variables are in the thousands with few outliers in the 10s and 100s but this time only one outlier in the ten thousands being clear weather which is at 70k.
+
+For Light once more the majority is in the thousands with again an outlier in the 10s being Other at 41 but once more here there is a dramatic outlier existing at 60k being Daylight.
 
 Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
@@ -73,7 +80,7 @@ As seen in Bounegru & Gray (2011), a data visualization should be clear...
 
 ### 2.2. Cleaning Data
 
-Insert text here.
+ In the previous step I had already cleaned all the white spaces in google sheets so I did not have to worry about that here. By using the text facet I checked for any duplicates or typos in all the columns and found none. Also when examining the choices in the "Classification_of_Accidents" column, all the variable were appropiate for the column as were for all the rest. 
 
 ### 2.3. Analyzing Data
 
