@@ -85,18 +85,22 @@ As seen in Bounegru & Gray (2011), a data visualization should be clear...
 ### 2.3. Analyzing Data
 
 Insert text here.
-For the pivot table I used the variables from Light and environment conditions to showcase the frequency of collisions throughout the day under certain environmental conditions. After observing the pivot table I noticed the pattern of collisions occuring the most consistently throughout the times and years under clear environmental conditions. I noticed a similar pattern in the Stacked column chart I made which looked at the environmental conditions throughout the years. By a long shot most of them occured when it was clear.
+For the pivot table I used the variables from Light and environment conditions to showcase the frequency of collisions throughout the day under certain environmental conditions. After observing the pivot table I noticed the pattern of collisions occuring the most consistently throughout the times and years under clear environmental conditions. I noticed a similar pattern in the Stacked column chart I made which looked at the environmental conditions throughout the years. By a long shot most of them occurred when it was clear.
 
-I also made pie charts in the other spreadsheet with the years seperated. In each sheet I made 3 to represent collisions that occured under certain environmental conditions, the conditions of the road when they occured, and the time they occured. From observing all the charts it can be seen that the majority of collisions occur when the weather is clear, the road is dry and during the day
+I also made pie charts in the other spreadsheet with the years separated. In each sheet I made 3 to represent collisions that occurred under certain environmental conditions, the conditions of the road when they occurred, and the time they occurred. From observing all the charts it can be seen that the majority of collisions occur when the weather is clear, the road is dry and during the day.
+
+There are many possible stories that can be told from this, one of the most obvious ones being on why more traffic collisions occur during clear weather and on dry roads than other conditions that on the surface should cause more collisions. This story can explore the reason behind the huge outliers that exist in this dataset. 
+
+Though while looking at the charts something that I thought of that should also be investigated and taken into account is how many people drive during other weather conditions that are seemingly unideal to drive in. While there is a fairly clear correlation of collisions and clear weather conditions this dataset only counts reported collisions in Ottawa and the conditions of them so can naturally be limited in determining the cause and which conditions are more dangerous than others.
 
 **This section should include a screen capture of your pivot table, like so:**
 
-![](pivot-table-screen-capture.png)<br>
+![](Pivottable.png)<br>
 *Figure 2: This pivot table shows...*
 
 **This section should also include a screen capture of your exploratory chart, like so:**
 
-![](chart-screen-capture.png)<br>
+![](Charts1.png)<br>
 *Figure 3: This exploratory chart shows...*
 
 ## 3. Delivering Data
