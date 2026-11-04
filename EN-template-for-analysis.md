@@ -80,11 +80,14 @@ As seen in Bounegru & Gray (2011), a data visualization should be clear...
 
 ### 2.2. Cleaning Data
 
- In the previous step I had already cleaned all the white spaces in google sheets so I did not have to worry about that here. By using the text facet I checked for any duplicates or typos in all the columns and found none. Also when examining the choices in the "Classification_of_Accidents" column, all the variable were appropiate for the column as were for all the rest. 
+ In the previous step I had already cleaned all the white spaces in google sheets so I did not have to worry about that here. By using the text facet I checked for any duplicates or typos in all the columns and found none. From what I could find the dataset was for the most part already clean.
 
 ### 2.3. Analyzing Data
 
 Insert text here.
+For the pivot table I used the variables from Light and environment conditions to showcase the frequency of collisions throughout the day under certain environmental conditions. After observing the pivot table I noticed the pattern of collisions occuring the most consistently throughout the times and years under clear environmental conditions. I noticed a similar pattern in the Stacked column chart I made which looked at the environmental conditions throughout the years. By a long shot most of them occured when it was clear.
+
+I also made pie charts in the other spreadsheet with the years seperated. In each sheet I made 3 to represent collisions that occured under certain environmental conditions, the conditions of the road when they occured, and the time they occured. From observing all the charts it can be seen that the majority of collisions occur when the weather is clear, the road is dry and during the day
 
 **This section should include a screen capture of your pivot table, like so:**
 
@@ -98,7 +101,7 @@ Insert text here.
 
 ## 3. Delivering Data
 
-Insert text here.
+
 
 ## 4. References
 
